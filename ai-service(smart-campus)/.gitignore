@@ -1,0 +1,73 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+
+# ==============================
+# Virtual Environment
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment variables
+# ==============================
+.env
+.env.*
+
+# ==============================
+# YOLO / Ultralytics
+# ==============================
+runs/
+*.pt
+*.onnx
+*.engine
+
+# Keep pretrained model ONLY if needed
+# Uncomment if you want to track yolo11m.pt
+# !yolo11m.pt
+
+# ==============================
+# Datasets & Test Data
+# ==============================
+test_data/
+data/
+datasets/
+
+# ==============================
+# Model Artifacts
+# ==============================
+models/*
+!models/.gitkeep
+
+# ==============================
+# Redis / Workers / Temp
+# ==============================
+*.rdb
+dump.rdb
+*.pid
+
+# ==============================
+# OS / Editor
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ==============================
+# Cache / Runtime
+# ==============================
+.cache/
+.ipynb_checkpoints/
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.out
