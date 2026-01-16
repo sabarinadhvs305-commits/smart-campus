@@ -2,6 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import roomRoutes from './routes/roomRoutes.js';
 import analyticsRoutes from './routes/analyticsRoutes.js'
+import  authRoutes from './routes/authRoutes.js';
 
 // Initialize Express
 const app = express();
@@ -22,5 +23,6 @@ app.get('/', (req, res) => {
 // Mount Routes
 app.use('/api/rooms', roomRoutes);
 app.use('/api/analytics', analyticsRoutes);
+app.use("/api/auth", authRoutes);
 
 export default app;

@@ -2,3 +2,5 @@
 node_modules
 
 service-account.json
+
+smart-campus-backend\config\firebase-admin.json
